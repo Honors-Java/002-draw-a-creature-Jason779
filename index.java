@@ -15,12 +15,13 @@ void draw() {
 
   background(10,230, 120);
  //Line on the ground
+ //Biggest line
 line(100,350,300,350);
-
+//Second Big line
 line(130,360,270,360);
-
+//Third Big line
 line(160,370,240,370);
-
+//Fourth Big line
 line(190,380,210,380);
 
 
@@ -42,20 +43,22 @@ ellipse(300,227,40,40);
 
 
   //Leg with wheel for Leg
+  //wheel
 fill(0);
   ellipse(200,320,50,55);
+  //rectangle
   fill(250,10,150);
   rect(200,260,15,125);
 
 
   //Body
-
-  
   fill(255,0,0);
   ellipse(200,200,95,150);
+  //Eyes
   fill(0,42,255)
   ellipse(180,172,15,25);
   ellipse(220,172,15,25);
+  //Nose
   fill(255,255,0);
   triangle(200,180,190,200,210,200 );
 
@@ -67,7 +70,16 @@ fill(0);
 
 
 
-  
+//My Extra Additional things I have to add.
+
+//Quadrilateral
+// Its a meteor!!!
+
+fill(255,0,0);
+quad(10,10,85, 139,111,41,52,2);
+
+
+
  
 	
 
