@@ -67,7 +67,10 @@ fill(0);
   fill(200, 145, 34);
   rect(200,120, 100, 30);
   rect(200,90, 40,30);
-
+//Added to the Hat
+fill(255,255,0)
+triangle(220,75,220,105,250,105);
+triangle(180,104,180,75,150,105);
 
 
 //My Extra Additional things I have to add.
